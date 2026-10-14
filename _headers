@@ -1,0 +1,15 @@
+/*
+  Cache assets that change only when their URL changes.
+  Re-deploy with a new URL after replacing fonts or images.
+*/
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/charts/*
+  Cache-Control: public, max-age=86400
+
+/style.css
+  Cache-Control: public, max-age=86400

@@ -1,0 +1,10 @@
+# Локальные служебные скрипты подготовки контента (в публикацию не нужны)
+apply_edits.py
+remove_packaging.py
+update_hero_img.py
+verify_deployment.py
+
+# Служебное
+Thumbs.db
+desktop.ini
+.DS_Store
